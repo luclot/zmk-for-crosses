@@ -11,31 +11,6 @@
 };
     
 / {
-    chosen { zmk,physical-layout = &gggw_crosses_54_layout; };
-
-    combos {
-        compatible = "zmk,combos";
-
-        Combo1 {
-            bindings = <&kp LEFT_WIN>;
-            key-positions = <50 49>;
-        };
-
-        Combo2 {
-            bindings = <&tog 3>;
-            key-positions = <49 48>;
-        };
-
-        Combo3 {
-            bindings = <&kp RIGHT_ALT>;
-            key-positions = <51 52>;
-        };
-
-        Combo4 {
-            bindings = <&tog 1>;
-            key-positions = <52 53>;
-        };
-    };
 
     keymap {
         compatible = "zmk,keymap";
